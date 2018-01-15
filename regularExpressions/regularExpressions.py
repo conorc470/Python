@@ -1,4 +1,3 @@
-
 # REGULAR EXPRESSIONS
 
 # Import the regex module with the import re.
