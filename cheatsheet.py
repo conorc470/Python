@@ -310,6 +310,12 @@ print('Hello', name)
 spam.upper - # converts to uppercase
 spam.lower - # converts to lowercase
 
+# To join list of strings into one single string value
+.join(['cats', 'rats', 'bats'])
+
+# To convert string value into list of strings
+'My name is Simon'.split()
+
 # A string is a series of characters surrounded by ' or "
 long_string = "I'll catch you if you fall - The Floor"
 
@@ -347,12 +353,24 @@ print(len(long_string))
 # Replace the first word with the second (Add a number to replace more)
 print(long_string.replace("Floor", "Ground"))
 
-# Remove white space from front and end
+# Remove white space from left and right of text
 print(long_string.strip())
+
+# Remove white space from left of text
+long_string.rstrip()
+
+# Remove white space form right of text
+long_string.lstrip()
 
 # Split a string into a list based on the delimiter you provide
 quote_list = long_string.split(" ")
 print(quote_list)
+
+# Alignment: add space to left of text
+'Hello'.rjust(10)
+
+# Alignment: add space to right of text
+'Hello'.ljust(10)
 
 # FILE I/O -------------
 
